@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [patient_name]
+      ,[email]
+      ,[mobile]
+      ,[gender]
+      ,[age]
+      ,[date]
+      ,[time]
+      ,[address]
+  FROM [AppointmentDB].[dbo].[Patient_Table]
